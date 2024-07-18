@@ -7,4 +7,5 @@
 ## Referencias
 - **Netflix:** Es una plataforma VOD que ofrece sus servios a nivel mundial, los cuales son peliculas y series. [Link](https://www.netflix.com)
 - **Disney++:** Es al plataforma de VOD de Disney. [Link](https://www.disneyplus.com)
+- **Max:** Es la Plataforms de VOD de HBO. [Link](https://www.max.com)
 
