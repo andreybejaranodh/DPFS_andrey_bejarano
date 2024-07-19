@@ -9,3 +9,5 @@
 - **Disney++:** Es al plataforma de VOD de Disney. [Link](https://www.disneyplus.com)
 - **Max:** Es la Plataforms de VOD de HBO. [Link](https://www.max.com)
 
+[Trello](https://trello.com/b/tKGuYbOO/liteflix)
+
