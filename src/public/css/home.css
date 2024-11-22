@@ -1,0 +1,114 @@
+:root {
+    --movie-card-width: 124px;
+}
+
+#main #banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  height: 35dvh;
+  width: 100%;
+  background-image: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%),
+    url(../img/banner.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  padding: 0 var(--padding-x);
+  padding-top: 64px;
+}
+
+#main #banner .categories {
+  font-size: 12px;
+}
+
+#main #banner .title {
+  color: var(--default-color);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#main #banner .description {
+  height: 25px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#main .movies-container .title {
+  margin-left: var(--padding-x);
+}
+
+#main .movies-container .title {
+  color: var(--default-color);
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(
+    0.75turn,
+    var(--background-primary) 50%,
+    var(--primary-color) 50%
+  );
+  border-image-slice: 1;
+  width: fit-content;
+  margin-bottom: 8px;
+}
+
+#main .movies-container .carrousel {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 16px;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding: 8px var(--padding-x);
+}
+
+#main .movies-container .carrousel::-webkit-scrollbar {
+  display: none;
+}
+
+#main .movies-container .movie-card {
+  min-width: var(--movie-card-width);
+  max-width: var(--movie-card-width);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#main .movies-container .movie-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#main .movies-container .movie-card:hover {
+  border: 1px solid var(--primary-color);
+  box-shadow: 0px 0px 4px 1px var(--primary-color);
+  transition: transform 0.3s ease, margin-left 0.3s ease;
+  transform: scale(1.05);
+}
+
+@media (min-width: 600px) {
+  #main #banner {
+    height: 55dvh;
+  }
+}
+
+@media (min-width: 900px) {
+  #main #banner {
+    height: 73dvh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #main #banner {
+    height: 100dvh;
+  }
+}
