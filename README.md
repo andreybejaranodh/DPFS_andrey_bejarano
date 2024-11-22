@@ -25,3 +25,5 @@ Mi Nombre es Erik Andrey Bejarano Sanchez, soy Tecnologo en analisis y desarroll
 - **Max:** Es la Plataforms de VOD de HBO. [Link](https://www.max.com)
 - **Amazon Prime:** Es la plataforma de VOD de Amazone. [Link](https://www.primevideo.com)
 - **Paramount+:** Es la plataforma de VOD de Paramount. [Link](https://www.paramountplus.com)
+
+[Trello](https://trello.com/b/tKGuYbOO/liteflix)
