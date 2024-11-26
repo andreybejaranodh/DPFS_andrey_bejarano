@@ -1,5 +1,5 @@
 :root {
-    --movie-card-width: 124px;
+  --movie-card-width: 124px;
 }
 
 #main #banner {
@@ -96,6 +96,9 @@
 }
 
 @media (min-width: 600px) {
+  :root {
+    --movie-card-width: 180px;
+  }
   #main #banner {
     height: 55dvh;
   }
