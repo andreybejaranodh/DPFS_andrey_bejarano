@@ -92,7 +92,7 @@
   border: 1px solid var(--primary-color);
   box-shadow: 0px 0px 4px 1px var(--primary-color);
   transition: transform 0.3s ease, margin-left 0.3s ease;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 @media (min-width: 600px) {
@@ -105,12 +105,18 @@
 }
 
 @media (min-width: 900px) {
+  :root {
+    --movie-card-width: 200px;
+  }
   #main #banner {
     height: 73dvh;
   }
 }
 
 @media (min-width: 1200px) {
+  :root {
+    --movie-card-width: 260px;
+  }
   #main #banner {
     height: 100dvh;
   }
