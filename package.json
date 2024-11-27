@@ -4,7 +4,13 @@
   "description": "DH Liteflix es una plataforma de Video on Demand (VOD) que ofrece una amplia selección de películas. Nuestro servicio permite a los usuarios acceder a contenido audiovisual de alta calidad a través de streaming.",
   "main": "src/app.js",
   "scripts": {
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "db:migrate": "sequelize-cli db:migrate",
+    "db:migrate:undo": "sequelize-cli db:migrate:undo",
+    "db:migrate:undo:all": "sequelize-cli db:migrate:undo:all",
+    "db:seed": "sequelize-cli db:seed:all",
+    "db:seed:undo": "sequelize-cli db:seed:undo",
+    "db:seed:undo:all": "sequelize-cli db:seed:undo:all"
   },
   "keywords": [],
   "author": "Andrey Bejarano<erik.bejarano@digitalhouse.com>",
@@ -14,7 +20,10 @@
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.21.1",
-    "express-session": "^1.18.1"
+    "express-session": "^1.18.1",
+    "mysql2": "^3.11.4",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.6.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"

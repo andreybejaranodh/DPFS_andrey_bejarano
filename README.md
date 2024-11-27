@@ -26,4 +26,8 @@ Mi Nombre es Erik Andrey Bejarano Sanchez, soy Tecnologo en analisis y desarroll
 - **Amazon Prime:** Es la plataforma de VOD de Amazone. [Link](https://www.primevideo.com)
 - **Paramount+:** Es la plataforma de VOD de Paramount. [Link](https://www.paramountplus.com)
 
+## DER
+![DER](design/liteflix_DER.png)
+
+
 [Trello](https://trello.com/b/tKGuYbOO/liteflix)
