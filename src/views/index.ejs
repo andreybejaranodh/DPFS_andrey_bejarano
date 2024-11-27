@@ -1,7 +1,7 @@
 <%- include('./partials/head', { styles: ['home'], title: 'Inicio' }) %>
 
     <%- include('./partials/header') %>
-
+        <%= JSON.stringify(locals.user) %>
         <main id="main">
             <section id="banner" style=" background-image: radial-gradient(
                 circle,

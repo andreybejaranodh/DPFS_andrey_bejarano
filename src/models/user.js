@@ -27,8 +27,7 @@ const User = {
             name: data.name,
             email: data.email,
             password: data.password,
-            role: data.role,
-            age: data.age
+            role: data.role
         };
         users.push(newUser);
         fs.writeFileSync(filePath, JSON.stringify(users, null, 4));
