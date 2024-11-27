@@ -1,6 +1,9 @@
+const movieModel = require('../models/movie');
+
 const controller = {
     index: (req, res) => {
-        res.render('index');
+        const movies = movieModel.findAll();
+        res.render('index', { movies });
     }
 }
 
