@@ -5,10 +5,10 @@
         <main id="main" class="register-container">
             <section class="register-form-container">
                 <h6 class="title">Registrate</h6>
-                <form class="register-form">
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Correo">
-                    <input type="password" placeholder="Contraseña">
+                <form class="register-form" action="/user/register" method="POST" autocomplete="off">
+                    <input type="text" placeholder="Nombre" name="name">
+                    <input type="text" placeholder="Correo" name="email">
+                    <input type="password" placeholder="Contraseña" name="password">
                     <button type="submit" class="btn-primary">Registrate</button>
                 </form>
                 <p class="body2">¿Ya tienes cuenta? <a href="/user/login">Inicia sesión</a></p>

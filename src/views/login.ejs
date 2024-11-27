@@ -5,9 +5,9 @@
         <main id="main" class="login-container">
             <section class="login-form-container">
                 <h6 class="title">Iniciar sesión</h6>
-                <form class="login-form">
-                    <input type="text" placeholder="Correo">
-                    <input type="password" placeholder="Contraseña">
+                <form class="login-form" action="/user/login" method="POST">
+                    <input type="text" placeholder="Correo" name="email">
+                    <input type="password" placeholder="Contraseña" name="password">
                     <button type="submit" class="btn-primary">Iniciar sesión</button>
                 </form>
                 <p class="body2">¿No tienes cuenta? <a href="/user/register">Registrate</a></p>
