@@ -81,28 +81,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Movie',
-    tableName: 'movies',
-    hooks: {
-      // afterFind: (movies, options) => {
-      // Esto no se recomuenda hacer ya que tengo q hacer muchas validaciones para la imagen, mejor usar el metodo qet
-      // del modelo de MovieImages para obtener la url de la imagen concatenada con la url real
-      //   if (Array.isArray(movies)) {
-      //     movies.forEach(movie => {
-      //       if (movie?.images) {
-      //         movie.images.forEach(image => {
-      //           image.url = `${process.env.APP_URL}/img/movies/${image.url}`;
-      //         });
-      //       }
-      //     });
-      //   } else {
-      //     if (movies?.images) {
-      //       movies.images.forEach(image => {
-      //         image.url = `${process.env.APP_URL}/img/movies/${image.url}`;
-      //       });
-      //     }
-      //   }
-      // }
-    }
+    tableName: 'movies'
   });
   return Movie;
 };

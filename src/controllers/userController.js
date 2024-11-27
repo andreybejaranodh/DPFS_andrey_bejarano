@@ -1,23 +1,23 @@
 const bcrypt = require('bcryptjs');
 
-const userModel = require('../models/user');
+const db = require('../database/models');
 
 const controller = {
     login: (req, res) => {
         res.render('login');
     },
-    loginProcess: (req, res) => {
+    loginProcess: async (req, res) => {
         const { email, password } = req.body;
-        const user = userModel.findByField('email', email);
+        const user = await db.User.findOne({ where: { email }, include: ['role'] });
 
-        if (user && bcrypt.compareSync(password, user.password)) {  
+        if (user && bcrypt.compareSync(password, user.password)) {
             req.session.user = {
                 id: user.id,
                 email: user.email,
                 name: user.name,
-                role: user.role
+                role: user.role.name
             };
-            
+
             // if (remember) {
             //     // s = 1000ms
             //     // m = 60s
@@ -26,7 +26,7 @@ const controller = {
             //     // w = 7d 
             //     res.cookie('userEmail', email, { maxAge: 1000 * 60 * 60 * 24 * 7 });
             // }
-            
+
             return res.redirect('/');
         }
 
@@ -39,13 +39,14 @@ const controller = {
     register: (req, res) => {
         res.render('register');
     },
-    registerProcess: (req, res) => {
+    registerProcess: async (req, res) => {
         const { email, password, name } = req.body;
-        userModel.create({
+        const role = await db.Role.findOne({ where: { name: 'user' } });
+        const user = await db.User.create({
             email,
-            password: bcrypt.hashSync(password, 10),
+            password,
             name,
-            role: 'user'
+            roles_id: role.id
         });
         res.redirect('/user/login');
     }

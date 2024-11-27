@@ -1,8 +1,10 @@
-const movieModel = require('../models/movie');
+const db = require('../database/models');
 
 const controller = {
-    index: (req, res) => {
-        const movies = movieModel.findAll();
+    index: async (req, res) => {
+        const movies = await db.Movie.findAll({
+            include: ['categories', 'images', 'actors', 'directors', 'languages', 'subtitles']
+        });
         res.render('index', { movies });
     }
 }

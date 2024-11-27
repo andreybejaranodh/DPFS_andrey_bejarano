@@ -9,7 +9,7 @@
                 rgba(0, 0, 0, 1) 100%
               ),
               linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%),
-              url(/img/movies/<%= movies?.[0].images?.[0].url %>);">
+              url(<%= movies?.[0].images?.[0].url %>);">
                 <p class="categories">
                     <%= movies?.[0].categories?.map(category=> category.name).join(', ') %>
                 </p>
@@ -34,7 +34,7 @@
                 <div class="carrousel">
                     <% movies.forEach((movie)=> { %>
                         <div class="movie-card">
-                            <img src="/img/movies/<%= movie.images?.[0].url %>" alt="Movie 1">
+                            <img src="<%= movie.images?.[0].url %>" alt="<%= movie.title %>">
                         </div>
                         <% }) %>
                 </div>
