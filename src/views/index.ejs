@@ -1,125 +1,67 @@
-<!DOCTYPE html>
-<html>
+<%- include('./partials/head', { styles: ['home'], title: 'Inicio' }) %>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liteflix - Inicio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/home.css">
-</head>
+    <%- include('./partials/header') %>
 
-<body>
-    <header id="header">
-        <div id="logo-container">
-            <a href="/"><img id="logo" src="/img/logo.png" alt="Logo Liteflix"></a>
-        </div>
-        <nav id="nav">
-            <div id="btn-menu">
-                <span class="material-symbols-outlined">
-                    menu
-                </span>
-            </div>
-            <div id="search-bar">
-                <span class="material-symbols-outlined">
-                    search
-                </span>
-            </div>
-            <ul id="menu">
-                <li>
-                    <a href="/">Inicio</a>
-                </li>
-                <li>
-                    <a href="">Tendencias</a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="hidde-md material-symbols-outlined">
-                            notifications
-                        </span>
-                        <span class="hidde-lg">Notificaciones</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="hidde-md material-symbols-outlined">
-                            person
-                        </span>
-                        <span class="hidde-lg">Cuenta</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+        <main id="main">
+            <section id="banner">
+                <p class="categories">Animación, Accion, Aventura, Fantasia, Drama</p>
+                <h5 class="title">Demon Slayer - Kimetsu no Yaiba - The Movie: Mugen Train (2020)</h5>
+                <div class="stars-container">
+                    <div class="star checked-star"></div>
+                    <div class="star checked-star"></div>
+                    <div class="star checked-star"></div>
+                    <div class="star middle-star"></div>
+                    <div class="star"></div>
+                </div>
+                <h6 class="subtitle">Descripción general</h6>
+                <p class="body2 description">Tanjirō Kamado, junto con Inosuke Hashibira, un chico criado por jabalíes
+                    que lleva una
+                    cabeza de jabalí, y Zenitsu Agatsuma, un chico asustadizo que revela su verdadero poder cuando
+                    duerme, aborda el
+                    Tren Infinito en una nueva misión con el Hashira del Fuego, Kyōjurō Rengoku, para derrotar a un
+                    demonio que ha
+                    estado atormentando a la gente y matando a los cazadores de demonios que se le oponen!</p>
+            </section>
+            <section class="movies-container">
+                <h6 class="title">Tendencias</h6>
+                <div class="carrousel">
+                    <div class="movie-card">
+                        <img src="/img/movies/demonslayer.png" alt="Movie 1">
+                    </div>
+                    <div class="movie-card">
+                        <img src="/img/movies/outside-the-wire.png" alt="Movie 2">
+                    </div>
+                    <div class="movie-card">
+                        <img src="/img/movies/kong-poster.png" alt="Movie 3">
+                    </div>
+                    <div class="movie-card">
+                        <img src="/img/movies/mortal-combat.png" alt="Movie 4">
+                    </div>
+                    <div class="movie-card">
+                        <img src="/img/movies/avenger-endgame.png" alt="Movie 5">
+                    </div>
+                </div>
+            </section>
+            <section class="movies-container">
+                <h6 class="title">Populares</h6>
+                <div class="carrousel">
+                    <div class="movie-card">
+                        <img src="/img/movies/demonslayer.png" alt="Movie 1">
+                    </div>
+                    <div class="movie-card">
+                        <img src="/img/movies/outside-the-wire.png" alt="Movie 2">
+                    </div>
+                    <div class="movie-card">
+                        <img src="/img/movies/kong-poster.png" alt="Movie 3">
+                    </div>
+                    <div class="movie-card">
+                        <img src="/img/movies/mortal-combat.png" alt="Movie 4">
+                    </div>
+                    <div class="movie-card">
+                        <img src="/img/movies/avenger-endgame.png" alt="Movie 5">
+                    </div>
+                </div>
+            </section>
+        </main>
 
-    <main id="main">
-        <section id="banner">
-            <p class="categories">Animación, Accion, Aventura, Fantasia, Drama</p>
-            <h5 class="title">Demon Slayer - Kimetsu no Yaiba - The Movie: Mugen Train (2020)</h5>
-            <div class="stars-container">
-                <div class="star checked-star"></div>
-                <div class="star checked-star"></div>
-                <div class="star checked-star"></div>
-                <div class="star middle-star"></div>
-                <div class="star"></div>
-            </div>
-            <h6 class="subtitle">Descripción general</h6>
-            <p class="body2 description">Tanjirō Kamado, junto con Inosuke Hashibira, un chico criado por jabalíes que lleva una
-                cabeza de jabalí, y Zenitsu Agatsuma, un chico asustadizo que revela su verdadero poder cuando duerme, aborda el
-                Tren Infinito en una nueva misión con el Hashira del Fuego, Kyōjurō Rengoku, para derrotar a un demonio que ha
-                estado atormentando a la gente y matando a los cazadores de demonios que se le oponen!</p>
-        </section>
-        <section class="movies-container">
-            <h6 class="title">Tendencias</h6>
-            <div class="carrousel">
-                <div class="movie-card">
-                    <img src="/img/movies/demonslayer.png" alt="Movie 1">
-                </div>
-                <div class="movie-card">
-                    <img src="/img/movies/outside-the-wire.png" alt="Movie 2">
-                </div>
-                <div class="movie-card">
-                    <img src="/img/movies/kong-poster.png" alt="Movie 3">
-                </div>
-                <div class="movie-card">
-                    <img src="/img/movies/mortal-combat.png" alt="Movie 4">
-                </div>
-                <div class="movie-card">
-                    <img src="/img/movies/avenger-endgame.png" alt="Movie 5">
-                </div>
-            </div>
-        </section>
-        <section class="movies-container">
-            <h6 class="title">Populares</h6>
-            <div class="carrousel">
-                <div class="movie-card">
-                    <img src="/img/movies/demonslayer.png" alt="Movie 1">
-                </div>
-                <div class="movie-card">
-                    <img src="/img/movies/outside-the-wire.png" alt="Movie 2">
-                </div>
-                <div class="movie-card">
-                    <img src="/img/movies/kong-poster.png" alt="Movie 3">
-                </div>
-                <div class="movie-card">
-                    <img src="/img/movies/mortal-combat.png" alt="Movie 4">
-                </div>
-                <div class="movie-card">
-                    <img src="/img/movies/avenger-endgame.png" alt="Movie 5">
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer id="footer"></footer>
-</body>
-
-</html>
+        <%- include('./partials/footer') %>

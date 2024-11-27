@@ -192,6 +192,14 @@ button {
   color: var(--default-color);
 }
 
+#footer {
+  height: 50px;
+  background-color: var(--background-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 600px) {
   .hidde-sm {
     display: none;
