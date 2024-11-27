@@ -1,0 +1,568 @@
+[
+    {
+        "id": 1,
+        "title": "Origen",
+        "description": "Un ladrón hábil, el mejor en el peligroso arte de la extracción, roba valiosos secretos desde lo más profundo del subconsciente durante el estado de sueño, cuando la mente está más vulnerable.",
+        "length": 110,
+        "release_date": "2020-01-01",
+        "rating": 2,
+        "categories": [
+            {
+                "name": "Ciencia Ficción"
+            }
+        ],
+        "images": [
+            {
+                "url": "inception.jpg"
+            }
+        ],
+        "actors": [
+            {
+                "id": 1,
+                "name": "Leonardo DiCaprio",
+                "avatar": "leonardoDiCaprio.jpg",
+                "bio": "Leonardo DiCaprio is an actor"
+            },
+            {
+                "id": 2,
+                "name": "Joseph Gordon-Levitt",
+                "avatar": "josephGordon-Levitt.jpg",
+                "bio": "Joseph Gordon-Levitt is an actor"
+            },
+            {
+                "id": 3,
+                "name": "Elliot Page",
+                "avatar": "elliotPage.jpg",
+                "bio": "Elliot Page is an actor"
+            }
+        ],
+        "directors": [
+            {
+                "id": 1,
+                "name": "Christopher Nolan",
+                "avatar": "christopherNolan.jpg",
+                "bio": "Christopher Nolan is an director"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español"
+            }
+        ],
+        "subtitles": [
+            {
+                "name": "Español"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Sueños de Libertad",
+        "description": "Dos hombres encarcelados se unen durante varios años, encontrando consuelo y eventual redención a través de actos de decencia común.",
+        "length": 120,
+        "release_date": "2020-01-01",
+        "rating": 4,
+        "categories": [
+            {
+                "name": "Drama"
+            }
+        ],
+        "images": [
+            {
+                "url": "shawshank.jpg"
+            }
+        ],
+        "actors": [
+            {
+                "id": 4,
+                "name": "Tim Robbins",
+                "avatar": "timRobbins.jpg",
+                "bio": "Tim Robbins is an actor"
+            },
+            {
+                "id": 5,
+                "name": "Morgan Freeman",
+                "avatar": "morganFreeman.jpg",
+                "bio": "Morgan Freeman is an actor"
+            },
+            {
+                "id": 6,
+                "name": "Bob Gunton",
+                "avatar": "bobGunton.jpg",
+                "bio": "Bob Gunton is an actor"
+            }
+        ],
+        "directors": [
+            {
+                "id": 2,
+                "name": "Frank Darabont",
+                "avatar": "frankDarabont.jpg",
+                "bio": "Frank Darabont is an director"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español"
+            }
+        ],
+        "subtitles": [
+            {
+                "name": "Español"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "El Caballero de la Noche",
+        "description": "Cuando el peligro conocido como el Joker emerge de su misterioso pasado, provoca caos en la gente de Gotham. El Caballero de la Noche debe aceptar una de las pruebas psicológicas y físicas más grandes de su capacidad para luchar contra la injusticia.",
+        "length": 141,
+        "release_date": "2020-01-01",
+        "rating": 4,
+        "categories": [
+            {
+                "name": "Acción"
+            }
+        ],
+        "images": [
+            {
+                "url": "batman.jpeg"
+            }
+        ],
+        "actors": [
+            {
+                "id": 7,
+                "name": "Christian Bale",
+                "avatar": "christianBale.jpg",
+                "bio": "Christian Bale is an actor"
+            },
+            {
+                "id": 8,
+                "name": "Heath Ledger",
+                "avatar": "heathLedger.jpg",
+                "bio": "Heath Ledger is an actor"
+            },
+            {
+                "id": 9,
+                "name": "Aaron Eckhart",
+                "avatar": "aaronEckhart.jpg",
+                "bio": "Aaron Eckhart is an actor"
+            }
+        ],
+        "directors": [
+            {
+                "id": 1,
+                "name": "Christopher Nolan",
+                "avatar": "christopherNolan.jpg",
+                "bio": "Christopher Nolan is an director"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español"
+            }
+        ],
+        "subtitles": [
+            {
+                "name": "Español"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Tiempos Violentos",
+        "description": "Las vidas de dos asesinos a sueldo, un boxeador, la esposa de un gánster y un par de bandidos de cafetería se entrelazan en cuatro historias de violencia y redención.",
+        "length": 131,
+        "release_date": "2020-01-01",
+        "rating": 5,
+        "categories": [
+            {
+                "name": "Crimen"
+            }
+        ],
+        "images": [
+            {
+                "url": "pulp_fiction.jpg"
+            }
+        ],
+        "actors": [
+            {
+                "id": 10,
+                "name": "John Travolta",
+                "avatar": "johnTravolta.jpg",
+                "bio": "John Travolta is an actor"
+            },
+            {
+                "id": 11,
+                "name": "Uma Thurman",
+                "avatar": "umaThurman.jpg",
+                "bio": "Uma Thurman is an actor"
+            },
+            {
+                "id": 12,
+                "name": "Samuel L. Jackson",
+                "avatar": "samuelLJackson.jpg",
+                "bio": "Samuel L. Jackson is an actor"
+            }
+        ],
+        "directors": [
+            {
+                "id": 3,
+                "name": "Quentin Tarantino",
+                "avatar": "quentinTarantino.jpg",
+                "bio": "Quentin Tarantino is an director"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español"
+            }
+        ],
+        "subtitles": [
+            {
+                "name": "Español"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Matrix",
+        "description": "Un hacker informático aprende de unos rebeldes misteriosos sobre la verdadera naturaleza de su realidad y su papel en la guerra contra sus controladores.",
+        "length": 121,
+        "release_date": "2020-01-01",
+        "rating": 5,
+        "categories": [
+            {
+                "name": "Ciencia Ficción"
+            }
+        ],
+        "images": [
+            {
+                "url": "matrix.jpg"
+            }
+        ],
+        "actors": [
+            {
+                "id": 13,
+                "name": "Keanu Reeves",
+                "avatar": "keanuReeves.jpg",
+                "bio": "Keanu Reeves is an actor"
+            },
+            {
+                "id": 14,
+                "name": "Laurence Fishburne",
+                "avatar": "laurenceFishburne.jpg",
+                "bio": "Laurence Fishburne is an actor"
+            },
+            {
+                "id": 15,
+                "name": "Carrie-Anne Moss",
+                "avatar": "carrie-AnneMoss.jpg",
+                "bio": "Carrie-Anne Moss is an actor"
+            }
+        ],
+        "directors": [
+            {
+                "id": 4,
+                "name": "Lana Wachowski",
+                "avatar": "lanaWachowski.jpg",
+                "bio": "Lana Wachowski is an director"
+            },
+            {
+                "id": 5,
+                "name": "Lilly Wachowski",
+                "avatar": "lillyWachowski.jpg",
+                "bio": "Lilly Wachowski is an director"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español"
+            }
+        ],
+        "subtitles": [
+            {
+                "name": "Español"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Gladiador",
+        "description": "Un ex general romano se convierte en gladiador después de ser traicionado por el emperador, buscando venganza por la muerte de su familia.",
+        "length": 120,
+        "release_date": "2020-01-01",
+        "rating": 5,
+        "categories": [
+            {
+                "name": "Acción"
+            }
+        ],
+        "images": [
+            {
+                "url": "gladiador.jpg"
+            }
+        ],
+        "actors": [
+            {
+                "id": 16,
+                "name": "Russell Crowe",
+                "avatar": "russellCrowe.jpg",
+                "bio": "Russell Crowe is an actor"
+            },
+            {
+                "id": 17,
+                "name": "Joaquin Phoenix",
+                "avatar": "joaquinPhoenix.jpg",
+                "bio": "Joaquin Phoenix is an actor"
+            },
+            {
+                "id": 18,
+                "name": "Connie Nielsen",
+                "avatar": "connieNielsen.jpg",
+                "bio": "Connie Nielsen is an actor"
+            }
+        ],
+        "directors": [
+            {
+                "id": 6,
+                "name": "Ridley Scott",
+                "avatar": "ridleyScott.jpg",
+                "bio": "Ridley Scott is an director"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español"
+            }
+        ],
+        "subtitles": [
+            {
+                "name": "Español"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Titanic",
+        "description": "Una joven de la alta sociedad se enamora de un artista pobre a bordo del lujoso y malogrado Titanic.",
+        "length": 121,
+        "release_date": "2002-01-01",
+        "rating": 5,
+        "categories": [
+            {
+                "name": "Romance"
+            }
+        ],
+        "images": [
+            {
+                "url": "titanic.jpg"
+            }
+        ],
+        "actors": [
+            {
+                "id": 1,
+                "name": "Leonardo DiCaprio",
+                "avatar": "leonardoDiCaprio.jpg",
+                "bio": "Leonardo DiCaprio is an actor"
+            },
+            {
+                "id": 19,
+                "name": "Kate Winslet",
+                "avatar": "kateWinslet.jpg",
+                "bio": "Kate Winslet is an actor"
+            },
+            {
+                "id": 20,
+                "name": "Billy Zane",
+                "avatar": "billyZane.jpg",
+                "bio": "Billy Zane is an actor"
+            }
+        ],
+        "directors": [
+            {
+                "id": 7,
+                "name": "James Cameron",
+                "avatar": "jamesCameron.jpg",
+                "bio": "James Cameron is an director"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español"
+            }
+        ],
+        "subtitles": [
+            {
+                "name": "Español"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "El Padrino",
+        "description": "El envejecido patriarca de una dinastía criminal traslada el control de su imperio clandestino a su hijo reacio.",
+        "length": 132,
+        "release_date": "2002-01-01",
+        "rating": 5,
+        "categories": [
+            {
+                "name": "Crimen"
+            }
+        ],
+        "images": [
+            {
+                "url": "good_fellas.jpg"
+            }
+        ],
+        "actors": [
+            {
+                "id": 21,
+                "name": "Marlon Brando",
+                "avatar": "marlonBrando.jpg",
+                "bio": "Marlon Brando is an actor"
+            },
+            {
+                "id": 22,
+                "name": "Al Pacino",
+                "avatar": "alPacino.jpg",
+                "bio": "Al Pacino is an actor"
+            },
+            {
+                "id": 23,
+                "name": "James Caan",
+                "avatar": "jamesCaan.jpg",
+                "bio": "James Caan is an actor"
+            }
+        ],
+        "directors": [
+            {
+                "id": 8,
+                "name": "Francis Ford Coppola",
+                "avatar": "francisFordCoppola.jpg",
+                "bio": "Francis Ford Coppola is an director"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español"
+            }
+        ],
+        "subtitles": [
+            {
+                "name": "Español"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Parásitos",
+        "description": "Una familia pobre se infiltra en la vida de una rica familia haciéndose pasar por trabajadores cualificados, con consecuencias inesperadas.",
+        "length": 121,
+        "release_date": "2002-01-01",
+        "rating": 5,
+        "categories": [
+            {
+                "name": "Suspenso"
+            }
+        ],
+        "images": [
+            {
+                "url": "parasite.jpg"
+            }
+        ],
+        "actors": [
+            {
+                "id": 24,
+                "name": "Song Kang-ho",
+                "avatar": "songKang-ho.jpg",
+                "bio": "Song Kang-ho is an actor"
+            },
+            {
+                "id": 15,
+                "name": "Carrie-Anne Moss",
+                "avatar": "carrie-AnneMoss.jpg",
+                "bio": "Carrie-Anne Moss is an actor"
+            },
+            {
+                "id": 26,
+                "name": "Cho Yeo-jeong",
+                "avatar": "choYeo-jeong.jpg",
+                "bio": "Cho Yeo-jeong is an actor"
+            }
+        ],
+        "directors": [
+            {
+                "id": 9,
+                "name": "Bong Joon-ho",
+                "avatar": "bongJoon-ho.jpg",
+                "bio": "Bong Joon-ho is an director"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español"
+            }
+        ],
+        "subtitles": [
+            {
+                "name": "Español"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Interstellar",
+        "description": "Un grupo de exploradores espaciales viaja a través de un agujero de gusano en un intento de asegurar la supervivencia de la humanidad.",
+        "length": 121,
+        "release_date": "2002-01-01",
+        "rating": 5,
+        "categories": [
+            {
+                "name": "Ciencia Ficción"
+            }
+        ],
+        "images": [
+            {
+                "url": "interstellar.jpg"
+            }
+        ],
+        "actors": [
+            {
+                "id": 27,
+                "name": "Matthew McConaughey",
+                "avatar": "matthewMcConaughey.jpg",
+                "bio": "Matthew McConaughey is an actor"
+            },
+            {
+                "id": 28,
+                "name": "Anne Hathaway",
+                "avatar": "anneHathaway.jpg",
+                "bio": "Anne Hathaway is an actor"
+            },
+            {
+                "id": 29,
+                "name": "Jessica Chastain",
+                "avatar": "jessicaChastain.jpg",
+                "bio": "Jessica Chastain is an actor"
+            }
+        ],
+        "directors": [
+            {
+                "id": 1,
+                "name": "Christopher Nolan",
+                "avatar": "christopherNolan.jpg",
+                "bio": "Christopher Nolan is an director"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español"
+            }
+        ],
+        "subtitles": [
+            {
+                "name": "Español"
+            }
+        ]
+    }
+]
